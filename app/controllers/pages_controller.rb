@@ -1,7 +1,6 @@
 class PagesController < ApplicationController
   def home
     @title = "Home"
-    @random = "random"
   end
 
   def about
@@ -10,5 +9,9 @@ class PagesController < ApplicationController
 
   def contact
     @title = "Contact"
+  end
+  
+  def help
+    @title = "Help"
   end
 end
