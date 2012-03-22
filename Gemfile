@@ -9,6 +9,8 @@ gem 'sqlite3'
 
 gem 'json'
 
+gem 'gravatar_image_tag'
+
 group :development do
 	gem 'rspec-rails'
 	gem 'annotate'
